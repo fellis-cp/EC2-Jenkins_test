@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Board - Demo DevOps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>Task Board</h1>
+      <div class="badges">
+        <span class="badge" id="version">versi ...</span>
+        <span class="badge" id="host">server ...</span>
+      </div>
+    </header>
+
+    <form id="task-form">
+      <input id="task-input" type="text" placeholder="Tulis tugas baru..." maxlength="100" autocomplete="off">
+      <button type="submit">Tambah</button>
+    </form>
+
+    <p id="message" class="message" hidden></p>
+    <ul id="task-list"></ul>
+    <p id="counter" class="counter"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "Dummy app untuk belajar CI/CD dengan Jenkins",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
